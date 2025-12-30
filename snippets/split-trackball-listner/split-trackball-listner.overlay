@@ -16,7 +16,7 @@
         // Normal mode: Balanced speed (1.5x)
         input-processors = <
             &zip_xy_transform (INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_Y_INVERT)
-            &zip_xy_scaler 3 2  // 1.5x speed
+            &zip_xy_scaler 3 4  // 0.75x speed (half sensitivity)
             &auto_mouse_layer 1 2000
         >;
 
